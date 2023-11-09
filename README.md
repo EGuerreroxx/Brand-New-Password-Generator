@@ -15,14 +15,14 @@ has been completed the program will generate and print the new passward on the p
 ## Screenshot
 ![Screenshot of Password Generator](./screenshots/blank_generator.jpg)
 
-![Screenshot of first prompt](.\screenshots\first_prompt.jpg)
+![Screenshot of first prompt](./screenshots/first_prompt.jpg)
 
-![Screenshot of second prompt](.\screenshots\second_prompt.jpg)
+![Screenshot of second prompt](./screenshots/second_prompt.jpg)
 
-![Screenshot of third prompt](.\screenshots\third_prompt.jpg)
+![Screenshot of third prompt](./screenshots/third_prompt.jpg)
 
-![Screenshot of fourth prompt](.\screenshots\fourth_prompt.jpg)
+![Screenshot of fourth prompt](./screenshots/fourth_prompt.jpg)
 
-![Screenshot of password length selector](.\screenshots\password_length.jpg)
+![Screenshot of password length selector](./screenshots/password_length.jpg)
 
-![Screenshot of final password output](.\screenshots\final_output.jpg)
+![Screenshot of final password output](./screenshots/final_output.jpg)
