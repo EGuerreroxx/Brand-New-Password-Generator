@@ -13,7 +13,7 @@ has been completed the program will generate and print the new passward on the p
 [Live URL](https://eguerreroxx.github.io/brand-new-password-generator/)
 
 ## Screenshot
-![Screenshot of Password Generator](.\screenshots\blank_generator.jpg)
+![Screenshot of Password Generator](./screenshots/blank_generator.jpg)
 
 ![Screenshot of first prompt](.\screenshots\first_prompt.jpg)
 
