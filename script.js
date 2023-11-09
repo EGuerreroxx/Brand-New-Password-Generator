@@ -31,53 +31,54 @@ var hasNumbers = hasNumbers[0].toUpperCase();
 var hasSymbols = hasSymbols[0].toUpperCase();
 
 //If no character input is selected than an alert will pop up telling user to choose at least one character type to include
-if((hasLowerCase && hasUpperCase && hasNumbers && hasSymbols)==='N'){
+if(hasLowerCase ==='N' && hasUpperCase ==='N' && hasNumbers ==='N' && hasSymbols ==='N'){
   alert("Please choose at least one char type to include in your password!");
   return;
 }
 
 //All possible character combinations in form of If statements
-if(hasLowerCase =="N"){
-  var potentialChars = upperCase + numbers + symbols;
 
-}else if(hasUpperCase == "N"){
-  var potentialChars = lowerCase + numbers + symbols;
-
-}else if(hasNumbers == "N"){
-  var potentialChars = lowerCase + upperCase + symbols;
-
-}else if(hasSymbols == "N"){
-  var potentialChars = lowerCase + upperCase + numbers;
-
-}else if((hasLowerCase && hasUpperCase) == "N"){
-  var potentialChars = numbers + symbols;
-
-}else if((hasLowerCase && hasNumbers) == "N"){
-  var potentialChars = upperCase + symbols;
-
-}else if((hasLowerCase && hasSymbols) == "N"){
-  var potentialChars = upperCase + numbers;
-
-}else if((hasUpperCase && hasNumbers) == "N"){
-  var potentialChars = lowerCase + symbols;
-
-}else if((hasUpperCase && hasSymbols) == "N"){
-  var potentialChars = lowerCase + numbers;
-
-}else if((hasNumbers && hasSymbols) == "N"){
-  var potentialChars = lowerCase + upperCase;
-
-}else if((hasUpperCase && hasNumbers && hasSymbols)== "N"){
+if(hasUpperCase === "N" && hasNumbers === "N" && hasSymbols === "N"){
   var potentialChars = lowerCase;
 
-}else if((hasLowerCase && hasNumbers && hasSymbols)== "N"){
+}else if(hasLowerCase === "N" && hasNumbers === "N" && hasSymbols === "N"){
   var potentialChars = upperCase;
 
-}else if((hasLowerCase && hasUpperCase && hasSymbols) == "N"){
+}else if(hasLowerCase === "N" && hasUpperCase === "N" && hasSymbols === "N"){
   var potentialChars = numbers;
 
-}else if ((hasLowerCase && hasUpperCase && hasNumbers) == "N"){
+}else if (hasLowerCase === "N" && hasUpperCase === "N" && hasNumbers === "N"){
   var potentialChars = symbols;
+
+}else if(hasLowerCase === "N" && hasUpperCase === "N"){
+  var potentialChars = numbers + symbols;
+
+}else if(hasLowerCase === "N" && hasNumbers === "N"){
+  var potentialChars = upperCase + symbols;
+
+}else if(hasLowerCase === "N" && hasSymbols === "N"){
+  var potentialChars = upperCase + numbers;
+
+}else if(hasUpperCase === "N" && hasNumbers === "N"){
+  var potentialChars = lowerCase + symbols;
+
+}else if(hasUpperCase === "N" && hasSymbols === "N"){
+  var potentialChars = lowerCase + numbers;
+
+}else if(hasNumbers === "N" && hasSymbols === "N"){
+  var potentialChars = lowerCase + upperCase;
+
+}else if(hasLowerCase ==="N"){
+  var potentialChars = upperCase + numbers + symbols;
+
+}else if(hasUpperCase === "N"){
+  var potentialChars = lowerCase + numbers + symbols;
+
+}else if(hasNumbers === "N"){
+  var potentialChars = lowerCase + upperCase + symbols;
+
+}else if(hasSymbols === "N"){
+  var potentialChars = lowerCase + upperCase + numbers;
 
 }else{
   var potentialChars = lowerCase + upperCase + numbers + symbols;
