@@ -30,13 +30,13 @@ var hasUpperCase = hasUpperCase[0].toUpperCase();
 var hasNumbers = hasNumbers[0].toUpperCase();
 var hasSymbols = hasSymbols[0].toUpperCase();
 
+//All possible character combinations in form of If statements
+
 //If no character input is selected than an alert will pop up telling user to choose at least one character type to include
 if(hasLowerCase ==='N' && hasUpperCase ==='N' && hasNumbers ==='N' && hasSymbols ==='N'){
   alert("Please choose at least one char type to include in your password!");
   return;
 }
-
-//All possible character combinations in form of If statements
 
 if(hasUpperCase === "N" && hasNumbers === "N" && hasSymbols === "N"){
   var potentialChars = lowerCase;
