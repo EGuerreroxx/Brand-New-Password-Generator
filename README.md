@@ -10,7 +10,7 @@ to insure at least one character type criteria is met. Once all the prompts and 
 has been completed the program will generate and print the new passward on the page.
 
 ## Usage
-[Live URL]()
+[Live URL](https://eguerreroxx.github.io/brand-new-password-generator/)
 
 ## Screenshot
 ![Screenshot of Password Generator](.\screenshots\blank_generator.jpg)
